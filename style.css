@@ -1,0 +1,39 @@
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: hwb(327 3% 5%);
+    font-style: oblique;
+
+}
+.image{
+    text-align: center;
+}
+#books{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    height: 100px;
+    width: 100px;
+    gap: 15px;
+    box-shadow: 100px;
+    }
+.book{
+      height: 400px;
+      width: 300px;
+      box-shadow:  10px 10px 10px 10px aqua;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+     align-items:center;
+    gap: 10px;
+    margin: 10px;
+    }
+    
+    .book:hover{
+        transform: translate(10px);
+        transition: 3s backgroundcolor black ease-in-out;
+        background-color: blueviolet;
+        scroll-behavior: smooth;
+        transition: 0.7s ease-in-out ;
+        box-shadow: 10px rgb(red, green, blue);
+       }
